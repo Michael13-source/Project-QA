@@ -1,0 +1,14 @@
+[
+    {
+        "username" : "standard_user",
+        "api_user": "eve.holt@reqres.in",
+        "password" : "secret_sauce",
+        "kategori" : "sukses" 
+    },
+    {
+        "username" : "usergagal",
+        "api_user": "usergagal@ngasal.com",
+        "password" : "passwordgagal",
+        "kategori" : "gagal" 
+    }
+]
