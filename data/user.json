@@ -10,5 +10,11 @@
         "api_user": "usergagal@ngasal.com",
         "password" : "passwordgagal",
         "kategori" : "gagal" 
+    },
+    {
+        "username" : "locked_out_user",
+        "api_user" : "anjirgagal@gmail.com",
+        "password" : "secret_sauce",
+        "kategori" : "gagal"
     }
 ]

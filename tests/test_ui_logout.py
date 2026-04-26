@@ -7,4 +7,4 @@ def test_logout(driver):
     page.open()
     page.login('standard_user', 'secret_sauce')
     Lpage = LogoutPage(driver)
-    Lpage.gaskan()
+    Lpage.outweb()

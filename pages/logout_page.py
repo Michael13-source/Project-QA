@@ -11,6 +11,6 @@ class LogoutPage:
         self.menu = (By.ID, 'react-burger-menu-btn')
         self.logout = (By.CSS_SELECTOR, '[data-test="logout-sidebar-link"]')
 
-    def gaskan(self):
+    def outweb(self):
         self.wait.until(EC.visibility_of_element_located(self.menu)).click()
         self.wait.until(EC.visibility_of_element_located(self.logout)).click()

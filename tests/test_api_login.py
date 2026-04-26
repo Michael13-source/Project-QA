@@ -1,11 +1,9 @@
 from api.autentik_api import AutentikAPI
 
-def test_reqres_auth_success():
+def test_validasi_komentar():
+    
     api = AutentikAPI()
-    response = api.test_get_collections()
-    
-    # Biar muncul di terminal pas lo pake perintah -s
-    print(f"\n[DEBUG] Status: {response.status_code}")
-    print(f"[DEBUG] Response: {response.text}")
-    
+    response = api.get_comments_by_post(1)
+     
     assert response.status_code == 200
+    assert len(response.json()) > 0
