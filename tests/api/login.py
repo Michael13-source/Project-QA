@@ -1,6 +1,6 @@
 from api.autentik_api import AutentikAPI
 
-def test_validasi_komentar():
+def test_commen_validation():
     
     api = AutentikAPI()
     response = api.get_comments_by_post(1)

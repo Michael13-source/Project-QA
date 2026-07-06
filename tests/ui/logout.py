@@ -8,3 +8,6 @@ def test_logout(driver):
     page.login('standard_user', 'secret_sauce')
     Lpage = LogoutPage(driver)
     Lpage.outweb()
+    cek_ui_out = Lpage.check()
+    assert cek_ui_out == "Swag Labs" 
+    
